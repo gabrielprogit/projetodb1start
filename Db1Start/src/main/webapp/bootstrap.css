@@ -8194,10 +8194,18 @@ body{
 }
 
 #loginLabel, #passwordLabel{
-	width: 10%;
+	width: 120%;
 }
 
-.form-group, #loginButton {
-   margin: 0 auto !important;
-   position: relative;
+.loginArea {
+   position: absolute;
+   top: 40%;
+   left: 33%;
+}
+
+#logo2 {
+	height: 12%;
+	width: 12%;
+	margin-top: 5px;
+	margin-left: 5px;
 }
