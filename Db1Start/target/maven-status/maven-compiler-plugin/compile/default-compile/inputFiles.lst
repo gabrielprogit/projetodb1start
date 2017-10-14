@@ -1,10 +1,14 @@
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\AutenticacaoBean.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoCriterio.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoAvaliacao.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Avaliador.java
-C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Criterio.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\EntityManagerProducer.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoAvaliacao.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\Transactional.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Avaliador.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\DAO.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\AutenticacaoBean.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoCriterio.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Criterio.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\TransactionInterceptor.java
+D:\JavaEE\Projeto Final\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
