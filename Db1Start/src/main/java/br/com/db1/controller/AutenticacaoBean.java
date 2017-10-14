@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 public class AutenticacaoBean {
 	private static final String USUARIO_CORRETO = "admin";
 	private static final String SENHA_CORRETA = "admin";
+
 	private String usuario;
 	private String senha;
 
@@ -44,8 +45,6 @@ public class AutenticacaoBean {
 		return "/redirect";
 	}
 
-	
-
 
 	public String getUsuario() {
 		return usuario;
@@ -63,5 +62,14 @@ public class AutenticacaoBean {
 	public void setSenha(String senha) {
 		this.senha = senha;
 
+	}
+	
+	public static String getUsuarioCorreto() {
+		return USUARIO_CORRETO;
+	}
+
+
+	public static String getSenhaCorreta() {
+		return SENHA_CORRETA;
 	}
 }
