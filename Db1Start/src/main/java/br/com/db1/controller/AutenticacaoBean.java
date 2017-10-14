@@ -3,6 +3,7 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
+
 import javax.servlet.http.HttpSession;
 
 
@@ -24,7 +25,7 @@ public class AutenticacaoBean {
 			return "/logado/home";
 
 		} else {
-			FacesMessage fm = new FacesMessage("usuário e/ou senha inválidos");
+			FacesMessage fm = new FacesMessage("Usuário e/ou senha inválidos");
 			fm.setSeverity(FacesMessage.SEVERITY_ERROR);
 		fc.addMessage(null, fm);
 
@@ -34,13 +35,17 @@ public class AutenticacaoBean {
 
 	}
 
+	
 	public String registraSaida() {
 		FacesContext fc = FacesContext.getCurrentInstance();
 		ExternalContext ec = fc.getExternalContext();
 		HttpSession session = (HttpSession) ec.getSession(false);
 		session.removeAttribute("usuario");
-		return "/login";
+		return "/redirect";
 	}
+
+	
+
 
 	public String getUsuario() {
 		return usuario;

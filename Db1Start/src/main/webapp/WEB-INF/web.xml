@@ -4,7 +4,7 @@
 
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
-	
+
 	<!-- Login filter -->
 	<filter>
 		<filter-name>LoginFilter</filter-name>
@@ -36,6 +36,7 @@
 		<exception-type>java.lang.Exception</exception-type>
 		<location>/erro.xhtml</location>
 	</error-page>
+	
 	
 </web-app>
 

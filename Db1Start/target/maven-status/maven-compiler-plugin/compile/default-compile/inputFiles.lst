@@ -1,10 +1,10 @@
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoAvaliacao.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Criterio.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\AutenticacaoBean.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Avaliador.java
-D:\SysOut Tech\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoCriterio.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\AutenticacaoBean.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoCriterio.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoAvaliacao.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Avaliador.java
+C:\gitHome\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Criterio.java
