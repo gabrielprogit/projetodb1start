@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
+<h:head>
+	<title>Cadastro Avaliador</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet"
+		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+
+</h:head>
+<style>
+strong#strong {
+	color: black;
+	margin-left: 46px;
+	margin-top: 25px;
+}
+
+strong#stroong {
+	color: black;
+	margin-left: 46px;
+	margin-top: 25px;
+}
+</style>
+
+<h:body>
+	<h:form>
+		<div id="wrap">
+			<section id="avaliador">
+				<h2 style="color: black;">CADASTRAR NOVO AVALIADOR</h2>
+			</section>
+			<section id="campos">
+						<div>
+								<strong id="stroong">NOME:</strong>
+								<h:inputText name="campoAvaliador" id="campoAva" class="col-6" style="height: 23px; margin-left: 56px; width: 188px; margin-top: 10px;"/>
+						</div>
+								<div>
+									<strong id="stroong">EMAIL:</strong>
+									<h:inputText name="campoAvaliador2" id="campos" class="col-6" style="height: 23px; margin-left: 55px; width: 188px; margin-top: 4px;"/>
+								</div>
+			</section>
+			<section id="button">
+				<button type="button" class="btn btn-danger3">
+					<span id="salvar" style="color: white;">SALVAR</span><span
+						class="glyphicon glyphicon-floppy-disk" id="botao" style="color: white;"></span>
+				</button>
+			</section>
+		</div>
+	</h:form>
+</h:body>
+</html>
