@@ -6,8 +6,7 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -20,9 +19,43 @@ public class Avaliador {
 
 	@Column
 	private String nome;
+	@Column
+	private String email;
 
 	@Column
-	@OneToOne
-	@JoinColumn(name = "tipoAvaliacao_id", nullable = false)
-	private TipoAvaliacao tipoAvaliacao;
+	//@OneToMany(fetch = FetchType.LAZY, mappedBy = "tipoAvaliacao")
+	private Prova avaliador;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public Prova getAvaliador() {
+		return avaliador;
+	}
+
+	public void setAvaliador(Prova avaliador) {
+		this.avaliador = avaliador;
+	}
+
 }
