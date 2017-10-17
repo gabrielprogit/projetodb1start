@@ -13611,13 +13611,25 @@ section#tipoAvaliador {
 }
 	
 .btn-dangerTipo {
-	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 32px;
-	color: #ff0000;
-	background-color: #FF0000;
-	border-color: #FF0000;
-	margin-left: 95px;
-	margin-top: 229px;
-	width: 185px;
-	height: 70px;
+	color: #ffffff;
+	background-color: #ff0000;
+	border-color: #ff0000;
+	margin-botton: 22px;
+	margin-left: 64px;
+	width: 112px;
+	height: 22px;
 }
+button#incluirTipo {
+	font-size: 110%;
+	padding: 1px 5px 1px 3px;
+}
+.row2 {
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+
+
+
+
+

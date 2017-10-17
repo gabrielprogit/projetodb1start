@@ -1,34 +1,49 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org /1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
 <h:head>
 	<title>Cadastrar Tipo</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
 	<meta charset="utf-8" />
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	
+
 </h:head>
+<style>
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+</style>
 <body>
 	<div>
 		<section id="tipoAvaliador">
-				<h2 style="color: black;">CADASTRAR NOVO TIPO DE AVALIAÇÃO</h2>
+			<h2 style="color: black;">CADASTRAR NOVO TIPO DE AVALIAÇÃO</h2>
 		</section>
 	</div>
 	<div>
 		<section id="buttonTipo">
-				<button type="button" class="btn btn-dangerTipo">
-					<span id="salvar" style="color: red;">INCLUIR</span><span
-						class="glyphicon glyphicon-floppy-disk" id="botao" style="color: red;"></span>
-				</button>
+			<br />
+			<button type="button" class="btn btn-dangerTipo" id="incluirTipo">INCLUIR</button>
+			<br />
 		</section>
-	
-	
 	</div>
+		<div class="row2">
+			<h:dataTable value="#{cidadeBean.list}" var="item"
+				rendered="#{not empty cidadeBean.list}">
+				<h:column>
+					<f:facet name="header">ID</f:facet>geovani</h:column>
+				<h:column>
+					<f:facet name="header">Nome</f:facet>bao</h:column>
+				<h:column>
+					<f:facet name="header">UF</f:facet>ola</h:column>
+			</h:dataTable>
 
 
-
-
-
+		</div>
 </body>
 </html>
