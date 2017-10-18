@@ -1,6 +1,7 @@
 package br.com.db1.model;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -50,8 +51,8 @@ public class Prova {
 	@OneToOne
 	private TipoAvaliacao tipoAvaliacao;
 
-	// @OneToMany
-	private ResultadoCriterio resultadoCriterio;
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "prova")
+	private List<ResultadoCriterio> resultadoCriterio;
 
 	public Long getId() {
 		return id;
@@ -149,11 +150,11 @@ public class Prova {
 		this.tipoAvaliacao = tipoAvaliacao;
 	}
 
-	public ResultadoCriterio getResultadoCriterio() {
+	public List<ResultadoCriterio> getResultadoCriterio() {
 		return resultadoCriterio;
 	}
 
-	public void setResultadoCriterio(ResultadoCriterio resultadoCriterio) {
+	public void setResultadoCriterio(List<ResultadoCriterio> resultadoCriterio) {
 		this.resultadoCriterio = resultadoCriterio;
 	}
 
