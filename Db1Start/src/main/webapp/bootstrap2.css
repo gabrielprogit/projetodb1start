@@ -13565,8 +13565,85 @@ button#botaoAva {
 	width: 116px;
 	height: 31px;
 }
-
-
-
+.col-2Tipo {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	margin-left: 45px;
+}
+.col-2Tipo1 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	margin-left: 46px;
+}
+.col-4Tipo2 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 55px;
+	
+}
+.col-4Tipo3 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 47px;
+}
+#botaoTipo2 {
+	margin-left: 47px;
+		
+}
+.btn-danger6 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 25px;
+	padding: 1px 5px 1px 5px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 450px;
+	margin-top: 5px;
+	margin-bottom: 220px;
+	width: 180px;
+	height: 65px;
+}
+.col-6Cr {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 22px;
+	margin-left: 55px;
+}
+.col-6Co {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 22px;
+	margin-left: 55px;
+}
+.btn-danger7 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	padding: 1px 5px 1px 5px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 235px;
+	margin-top: 13px;
+	width: 116px;
+	height: 31px;
+}
+.btn-danger8 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	padding: 1px 5px 1px 5px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 55px;
+	margin-top: 13px;
+	width: 116px;
+	height: 31px;
+}
+.col-6TipoC {
+	margin-bottom: 25px;
+}
 
 
