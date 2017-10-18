@@ -10,40 +10,15 @@
 		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 </h:head>
-<style>
-th {
-	text-align: center;
-}
-
-td {
-	text-align: center;
-}
-</style>
-<body>
-	<div>
-		<section id="tipoAvaliador">
-			<h2 style="color: black;">CADASTRAR NOVO TIPO DE AVALIAÇÃO</h2>
-		</section>
-	</div>
-	<div>
-		<section id="buttonTipo">
-			<br />
-			<button type="button" class="btn btn-dangerTipo" id="incluirTipo">INCLUIR</button>
-			<br />
-		</section>
-	</div>
-		<div class="row2">
-			<h:dataTable value="#{cidadeBean.list}" var="item"
-				rendered="#{not empty cidadeBean.list}">
-				<h:column>
-					<f:facet name="header">ID</f:facet>geovani</h:column>
-				<h:column>
-					<f:facet name="header">Nome</f:facet>bao</h:column>
-				<h:column>
-					<f:facet name="header">UF</f:facet>ola</h:column>
-			</h:dataTable>
-
-
-		</div>
-</body>
+<h:body>
+	<h:form>
+			<div class="col-6Tipo">
+				<h:outputLabel value="CADASTRAR NOVO AVALIADOR" />
+			</div>
+			<div class="col-6">
+				<h:commandButton class="btn btn-danger4" value="INCLUIR" id="botaoTipo"/>			
+			</div>
+	</h:form>
+</h:body>
 </html>
+		

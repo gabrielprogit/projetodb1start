@@ -64,7 +64,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+	
 }
 
 @
@@ -722,7 +722,6 @@ th {
 
 label {
 	display: inline-block;
-	margin-bottom: .5rem;
 }
 
 button:focus {
@@ -4460,8 +4459,7 @@ px
 	-ms-user-select: none;
 	user-select: none;
 	border: 1px solid transparent;
-	padding: 0.5rem 0.75rem;
-	font-size: 1rem;
+	font-size: 100%;
 	line-height: 1.25;
 	border-radius: 0.25rem;
 	transition: all 0.15s ease-in-out;
@@ -13528,23 +13526,44 @@ a.text-dark:focus, a.text-dark:hover {
 .botaoAva {
 	font-size: 100%;
 }
-.btn-danger22 {
-	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 100%;
-	color: #fff;
-	background-color: #FF0000;
-	border-color: #FF0000;
-	margin-left: 45px;
-	margin-top: 29px;
-	width: 181px;
-	height: 70px;
-}
 .rowAva {
 	font-size: 32px;
 	margin-left: 44px;
 	margin-top: 22px;
-		
-	
+}
+button#botaoAva {
+	 background-image: url("logoAva.png");
+}
+.col-6Tipo {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size:33px;
+	margin-left: 44px;
+	margin-top: 22px;
+	color: black;
+}
+.btn-danger4 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 17px;
+	padding: 1px 5px 1px 5px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 45px;
+	margin-top: 12px;
+	width: 115px;
+	height: 30px;
+}
+.btn-danger5 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	padding: 1px 5px 1px 5px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 46px;
+	margin-top: 13px;
+	width: 116px;
+	height: 31px;
 }
 
 
