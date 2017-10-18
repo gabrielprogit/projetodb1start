@@ -13502,6 +13502,51 @@ a.text-dark:focus, a.text-dark:hover {
 	padding-right: 15px;
 	padding-left: 1px;
 }
+
+.col-4Cand {
+	margin-left: 43px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
+}
+
+.col-4Cand3 {
+	margin-left: 42px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
+}
+.col-4Cand2 {
+	margin-left: 18px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
+}
+
+.col-4Cand4 {
+	margin-left: 55px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
+}
+.col-2Cand2 {
+	margin-left: 44px;
+}
+
+.col-2Cand4 {
+	margin-left: 44px;
+}
+
+.col-2Cand1 {
+	margin-left: 44px;
+}
+.col-2Cand3 {
+	margin-left: 44px;
+}
 .col-2AvaT {
 	margin-left: 44px;
 }
@@ -13519,6 +13564,17 @@ a.text-dark:focus, a.text-dark:hover {
 	background-color: #FF0000;
 	border-color: #FF0000;
 	margin-left: 985px;
+	margin-top: 229px;
+	width: 185px;
+	height: 70px;
+}
+.btn-danger55 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 100%;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 500px;
 	margin-top: 229px;
 	width: 185px;
 	height: 70px;

@@ -1,5 +1,7 @@
 package br.com.db1.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -23,8 +25,8 @@ public class Avaliador {
 	private String email;
 
 	@Column
-	//@OneToMany(fetch = FetchType.LAZY, mappedBy = "tipoAvaliacao")
-	private Prova avaliador;
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "avaliador")
+	private List<Prova> prova;
 
 	public Long getId() {
 		return id;
@@ -50,12 +52,12 @@ public class Avaliador {
 		this.email = email;
 	}
 
-	public Prova getAvaliador() {
-		return avaliador;
+	public List<Prova> getProva() {
+		return prova;
 	}
 
-	public void setAvaliador(Prova avaliador) {
-		this.avaliador = avaliador;
+	public void setProva(List<Prova> prova) {
+		this.prova = prova;
 	}
 
 }
