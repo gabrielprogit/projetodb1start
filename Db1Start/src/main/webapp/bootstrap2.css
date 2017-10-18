@@ -60,6 +60,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-ms-overflow-style: scrollbar;
 	-webkit-tap-highlight-color: transparent;
+	font-size: 150px;
 }
 
 *, *::before, *::after {
@@ -13491,92 +13492,31 @@ a.text-dark:focus, a.text-dark:hover {
 	margin-top: 5px;
 	margin-left: 5px;
 }
-
-table#tabela {
-	border: 1px solid #000000;
-	border-spacing: 0px;
-	margin-top: 18px;
-	margin-left: 26px;
-	text-align: center;
-	color: black;
+.row123 {
+	font-size: 35px;
+	margin-left: 44px;
+	margin-top: 22px;
 }
-
-table#tabela td {
-	border: 1px solid #000000;
-	padding: 1px 55px 1px 55px;
-	text-align: center;
-	vertical-align: middle;
+.col-4Ava {
+	margin-left: 40px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
 }
-
-table#tabela tr {
-	border: 1px solid #400040;
-	padding: 1px 55px 1px 55px;
-	text-align: center;
-	vertical-align: middle;
+.col-2AvaT {
+	margin-left: 44px;
 }
-
-.btn-danger2 {
-	color: #fff;
-	background-color: #FF0000;
-	border-color: #FF0000;
-	margin-left: 26px;
-	width: 112px;
-	height: 40px;
+.col-4Ava2 {
+	margin-left: 39px;
+	width: 220px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 1px;
 }
-
-section#ava {
-	font-family: Arial, Helvetica, Sans-Serif;
-	margin-left: 26px;
-	margin-top: 19px;
-}
-
-section#avaliador {
-	font-family: Arial, Helvetica, Sans-Serif;
-	margin-left: 45px;
-	margin-top: 25px;
-}
-
-inputText#campo {
-	margin-left: 46px;
-}
-
-header#testt {
-	margin-left: 14px;
-}
-
-section#texto {
-	font-family: Arial, Helvetica, Sans-Serif;
-	margin-left: 45px;
-	margin-top: 30px;
-	color: #000000;
-	font-weight: bold;
-}
-
-section#linha {
-	width: 485px;
-	color: #000000;
-	background-color: #000000;
-	height: 2px;
-	align: left;
-	margin-left: 45px;
-}
-
-.test tr input {
-	color: #000000;
-	margin-right: 4px;
-	margin-left: 45px;
-	margin-bottom: 1px;
-}
-
-.test td label {
-	color: #000000;
-	margin-right: 14px;
-	margin-bottom: 1px;
-}
-
 .btn-danger3 {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 32px;
+	font-size: 100%;
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
@@ -13585,49 +13525,27 @@ section#linha {
 	width: 185px;
 	height: 70px;
 }
-
-span#botao {
-	margin-top: 1px;
-	font-size: 29px;
-	margin-left: 5px;
+.botaoAva {
+	font-size: 100%;
 }
-
-span#salvar {
-	font-size: 33px;
-	font-family: Helvetica, Sans-Serif;
-}
-
-.container {
-	margin-left: 5px;
-}
-
-.campoAva {
-	margin-left: 50px;
-}
-section#tipoAvaliador {
+.btn-danger22 {
 	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 100%;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
 	margin-left: 45px;
-	margin-top: 25px;
+	margin-top: 29px;
+	width: 181px;
+	height: 70px;
 }
+.rowAva {
+	font-size: 32px;
+	margin-left: 44px;
+	margin-top: 22px;
+		
 	
-.btn-dangerTipo {
-	color: #ffffff;
-	background-color: #ff0000;
-	border-color: #ff0000;
-	margin-botton: 22px;
-	margin-left: 64px;
-	width: 112px;
-	height: 22px;
 }
-button#incluirTipo {
-	font-size: 110%;
-	padding: 1px 5px 1px 3px;
-}
-.row2 {
-	border: 1px solid black;
-	margin-top: 10px;
-}
-
 
 
 

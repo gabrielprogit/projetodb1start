@@ -3,7 +3,7 @@
 	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
 <h:head>
 	<title>Avaliadores</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
 	<meta charset="utf-8" />
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -23,39 +23,11 @@ td {
 
 <h:body>
 	<h:form>
-		<div id="wrap">
-			<section id="ava">
-				<h2 style="color: black;">AVALIADORES</h2>
-			</section>
-			<br />
-			<button type="button" class="btn btn-danger2" id="Incluir">INCLUIR</button>
-			<br />
-			<table id="tabela">
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>NOME</th>
-						<th>TIPO</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>FUSCA</td>
-						<td>JAVA</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>FUSCA</td>
-						<td>JAVA</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>MARCOS</td>
-						<td>DELPHI</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="rowAva">
+			<h:outputLabel value="AVALIADORES" />
+		</div>
+		<div>
+			<h:commandButton class="btn btn-danger22" value="INCLUIR" id="botaoAva"/>
 		</div>
 	</h:form>
 </h:body>

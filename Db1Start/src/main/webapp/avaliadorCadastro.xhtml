@@ -3,7 +3,7 @@
 	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
 <h:head>
 	<title>Cadastro Avaliador</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
 	<link rel="stylesheet"
 		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 	<meta charset="utf-8" />
@@ -13,43 +13,27 @@
 	<script src="js/jquery.tablesorter.min.js"></script>
 
 </h:head>
-<style>
-strong#strong {
-	color: black;
-	margin-left: 46px;
-	margin-top: 25px;
-}
-
-strong#stroong {
-	color: black;
-	margin-left: 46px;
-	margin-top: 25px;
-}
-</style>
-
 <h:body>
 	<h:form>
-		<div id="wrap">
-			<section id="avaliador">
-				<h2 style="color: black;">CADASTRAR NOVO AVALIADOR</h2>
-			</section>
-			<section id="campos">
-						<div>
-								<strong id="stroong">NOME:</strong>
-								<h:inputText name="campoAvaliador" id="campoAva" class="col-6" style="height: 23px; margin-left: 56px; width: 188px; margin-top: 10px;"/>
-						</div>
-								<div>
-									<strong id="stroong">EMAIL:</strong>
-									<h:inputText name="campoAvaliador2" id="campos" class="col-6" style="height: 23px; margin-left: 55px; width: 188px; margin-top: 4px;"/>
-								</div>
-			</section>
-			<section id="button">
-				<button type="button" class="btn btn-danger3">
-					<span id="salvar" style="color: white;">SALVAR</span><span
-						class="glyphicon glyphicon-floppy-disk" id="botao" style="color: white;"></span>
-				</button>
-			</section>
+		<div class="row123">
+			<h:outputLabel value="CADASTRAR NOVO AVALIADOR" />
 		</div>
+			<div class="col-6">
+				<h:outputLabel value="NOME:" for="campo-nome" class="col-2AvaT"/>
+				<h:inputText value="" id="campoAva" class="col-4Ava"/>
+			</div>
+			<div class="col-6">
+				<h:outputLabel value="EMAIL:" for="campo-email" class="col-2AvaT"/>
+				<h:inputText value="" id="campoAva2" class="col-4Ava2"/>
+			</div>
+			<div>
+				<h:commandButton class="btn btn-danger3" value="SALVAR" id="botaoAva"/>
+				<h:graphicImage library="imagem" name="logoAva.png" alt="Editar" title="Editar" />
+			</div>
+		
+		
+		
+		
 	</h:form>
 </h:body>
 </html>
