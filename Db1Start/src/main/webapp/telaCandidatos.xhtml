@@ -2,43 +2,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
 <h:head>
-	<title>CANDIDATOS</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<title>Cadastro Candidato</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
+	<link rel="stylesheet"
+		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
 	<meta charset="utf-8" />
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
 
 </h:head>
 <h:body>
-	<div>
-		<h2>CADASTRAR NOVO CANDIDATO</h2>
-	</div>
 	<h:form>
-		<strong id="candidatoCampo">NOME:</strong>
-		<h:inputText id="campo-candidato-nome" />
-		<div>
-
-			<strong id="candidatoCampo">CELULAR:</strong>
-			<h:inputText id="campo-candidato-celular" />
+		<div class="row123">
+			<h:outputLabel value="CADASTRAR NOVO AVALIADOR" />
 		</div>
-		<div>
-
-			<strong id="candidatoCampo">EMAIL:</strong>
-			<h:inputText id="campo-candidato-email" />
+		
+		<div class="col-6">
+			<h:outputLabel value="NOME:" for="campo-nome" class="col-2Cand1" />
+			<h:inputText value="" id="campoCand" class="col-4Cand" />
 		</div>
-		<div>
+		<div class="col-6">
+			<h:outputLabel value="EMAIL:" for="campo-email" class="col-2Cand2" />
+			<h:inputText value="" id="campoCand3" class="col-4Cand3" />
 
-			<strong id="candidatoCampo">OBS:</strong>
-			<h:inputText id="campoInferno" />
+		</div>
+		<div class="col-6">
+			<h:outputLabel value="CELULAR:" for="campo-celular" class="col-2Cand3" />
+			<h:inputText value="" id="campoCand2" class="col-4Cand2" />
+		</div>
+		
+		<div class="col-6">
+			<h:outputLabel value="OBS:" for="campo-celular" class="col-2Cand4" />
+			<h:inputText value="" id="campoCand4" class="col-4Cand4" />
+		</div>
+		
+
+		<div class="col-6">
+			<h:commandButton class="btn btn-danger55" value="SALVAR"
+				id="botaoCand" />
 		</div>
 
-		<section id="button">
-			<button type="button" class="btn btn-danger32">
-				<span id="salvar" style="color: red;">SALVAR</span><span
-					class="glyphicon glyphicon-floppy-disk" id="botao"
-					style="color: red;"></span>
-			</button>
-		</section>
+
+
 
 	</h:form>
 </h:body>
