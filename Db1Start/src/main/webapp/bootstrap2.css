@@ -4479,7 +4479,7 @@ px
 }
 
 .btn:active, .btn.active {
-	background-image: none;
+
 }
 
 a.btn.disabled, fieldset[disabled] a.btn {
@@ -13613,6 +13613,7 @@ button#botaoAva {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
 	padding: 1px 5px 1px 5px;
+	border-radius: 4px;
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
@@ -13629,7 +13630,7 @@ button#botaoAva {
 .col-2Tipo1 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
-	margin-left: 46px;
+	margin-left: 45px;
 }
 .col-4Tipo2 {
 	font-family: Arial, Helvetica, Sans-Serif;
@@ -13656,11 +13657,12 @@ button#botaoAva {
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
-	margin-left: 450px;
-	margin-top: 5px;
-	margin-bottom: 220px;
+	margin-left: 415px;
+    margin-top: -63px;
+    margin-bottom: 285px;
 	width: 180px;
-	height: 65px;
+	height: 55px;
+	
 }
 .col-6Cr {
 	font-family: Arial, Helvetica, Sans-Serif;
@@ -13700,6 +13702,21 @@ button#botaoAva {
 }
 .col-6TipoC {
 	margin-bottom: 25px;
+}
+.btn-danger10 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 26px;
+	padding: 1px 5px 1px 5px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #FF0000;
+	border-color: #FF0000;
+	margin-left: 451px;
+    margin-top: -68px;
+    margin-bottom: 284px;
+	width: 181px;
+	height: 61px;
+		
 }
 
 
