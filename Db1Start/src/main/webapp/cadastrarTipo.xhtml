@@ -1,6 +1,7 @@
 <ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns="http://www.w3.org /1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:b="http://bootsfaces.net/ui"
 	xmlns:f="http://java.sun.com/jsf/core" template="menu.xhtml">
 
 	<ui:define name="corpo">
@@ -12,11 +13,10 @@
 				</div>
 				<div class="col-6">
 					<h:commandButton class="btn btn-danger4" value="INCLUIR"
-						id="botaoTipo" />
+						id="botaoTipo" h:data-target="#amodal" />
 				</div>
-			</div>	
+			</div>
 		</h:form>
 	</ui:define>
-
 </ui:composition>
 
