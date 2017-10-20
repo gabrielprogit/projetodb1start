@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\Transactional.java
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
@@ -12,3 +13,20 @@ E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\model\C
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
 E:\DB1Start\ProjetoGit\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
+=======
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\Transactional.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\filter\ControleDeAcesso.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Criterio.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Candidato.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\ResultadoCriterio.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\DAO.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\AutenticacaoBean.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\impl\AvaliadorDao.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Prova.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\TipoAvaliacao.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\ErroBean.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\EntityManagerProducer.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\controller\CriterioBean.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\model\Avaliador.java
+C:\Users\Aluno\Desktop\git\projetodb1start\Db1Start\src\main\java\br\com\db1\dao\TransactionInterceptor.java
+>>>>>>> 91397bc1080150b30bb54bea4adfb1d31f40d6b4

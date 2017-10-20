@@ -21,15 +21,14 @@ public class Candidato {
 
 	@Column
 	private String nome;
-
 	@Column
 	private String email;
-
 	@Column
 	private Integer telefone;
-
 	@Column
 	private String linkedin;
+	@Column
+	private String obs;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "candidato")
 	private List<Prova> provas;
@@ -72,6 +71,14 @@ public class Candidato {
 
 	public void setLinkedin(String linkedin) {
 		this.linkedin = linkedin;
+	}
+
+	public String getObs() {
+		return obs;
+	}
+
+	public void setObs(String obs) {
+		this.obs = obs;
 	}
 
 	public List<Prova> getProvas() {
