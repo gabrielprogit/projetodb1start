@@ -60,7 +60,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-ms-overflow-style: scrollbar;
 	-webkit-tap-highlight-color: transparent;
-	font-size: 150px;
 }
 
 *, *::before, *::after {
@@ -210,6 +209,8 @@ a
 
 
 
+
+
 :not
 
 
@@ -224,7 +225,9 @@ a
 
 
 
+
  
+
 
 
 
@@ -255,7 +258,9 @@ href
 
 
 
+
  
+
 
 
 
@@ -284,7 +289,9 @@ href
 
 
 
+
  
+
 
 
 
@@ -315,7 +322,9 @@ tabindex
 
 
 
+
  
+
 
 
 
@@ -358,7 +367,10 @@ color
 
 
 
+
+
 :
+
 
 
 
@@ -386,7 +398,10 @@ color
 
 
 
+
 inherit
+
+
 
 
 
@@ -441,7 +456,10 @@ text-decoration
 
 
 
+
+
 :
+
 
 
 
@@ -469,7 +487,10 @@ text-decoration
 
 
 
+
 none
+
+
 
 
 
@@ -555,6 +576,8 @@ svg
 
 
 
+
+
 :not
 
 
@@ -569,7 +592,9 @@ svg
 
 
 
+
  
+
 
 
 
@@ -598,7 +623,9 @@ svg
 
 
 
+
  
+
 
 
 
@@ -641,7 +668,10 @@ overflow
 
 
 
+
+
 :
+
 
 
 
@@ -669,7 +699,10 @@ overflow
 
 
 
+
 hidden
+
+
 
 
 
@@ -947,6 +980,8 @@ mark, .mark {
 
 
 
+
+
 :not
 
 
@@ -961,7 +996,9 @@ mark, .mark {
 
 
 
+
  
+
 
 
 
@@ -990,7 +1027,9 @@ mark, .mark {
 
 
 
+
  
+
 
 
 
@@ -1033,7 +1072,10 @@ margin-right
 
 
 
+
+
 :
+
 
 
 
@@ -1061,8 +1103,11 @@ margin-right
 
 
 
+
 5
 px
+
+
 
 
 
@@ -2196,7 +2241,11 @@ select
 
 
 
+
+
 .form-control
+
+
 
 
 
@@ -2237,7 +2286,9 @@ select
 
 
 
+
  
+
 
 
 
@@ -2268,7 +2319,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2297,7 +2350,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2328,7 +2383,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -2371,6 +2428,8 @@ height
 
 
 
+
+
 :
 
 
@@ -2385,7 +2444,9 @@ height
 
 
 
+
  
+
 
 
 
@@ -2426,11 +2487,15 @@ calc
 
 
 
+
+
 (2
 .25rem
 +
 2
 px
+
+
 
 
 
@@ -2547,7 +2612,11 @@ select
 
 
 
+
+
 .form-control-sm
+
+
 
 
 
@@ -2588,7 +2657,9 @@ select
 
 
 
+
  
+
 
 
 
@@ -2619,7 +2690,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2648,7 +2721,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2679,7 +2754,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -2697,6 +2774,8 @@ multiple
 .input-group-sm
 >
 select
+
+
 
 
 
@@ -2750,6 +2829,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -2765,7 +2846,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -2796,7 +2879,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2825,7 +2910,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -2856,7 +2943,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -2874,6 +2963,8 @@ multiple
 .input-group-sm
 >
 select
+
+
 
 
 
@@ -2927,6 +3018,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -2942,7 +3035,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -2973,7 +3068,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3002,7 +3099,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3033,7 +3132,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -3053,6 +3154,8 @@ multiple
 .input-group-btn
 >
 select
+
+
 
 
 
@@ -3106,6 +3209,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -3121,7 +3226,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -3152,7 +3259,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3181,7 +3290,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3212,7 +3323,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -3255,6 +3368,8 @@ height
 
 
 
+
+
 :
 
 
@@ -3269,7 +3384,9 @@ height
 
 
 
+
  
+
 
 
 
@@ -3310,11 +3427,15 @@ calc
 
 
 
+
+
 (1
 .8125rem
 +
 2
 px
+
+
 
 
 
@@ -3378,7 +3499,11 @@ select
 
 
 
+
+
 .form-control-lg
+
+
 
 
 
@@ -3419,7 +3544,9 @@ select
 
 
 
+
  
+
 
 
 
@@ -3450,7 +3577,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3479,7 +3608,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3510,7 +3641,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -3528,6 +3661,8 @@ multiple
 .input-group-lg
 >
 select
+
+
 
 
 
@@ -3581,6 +3716,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -3596,7 +3733,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -3627,7 +3766,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3656,7 +3797,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3687,7 +3830,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -3705,6 +3850,8 @@ multiple
 .input-group-lg
 >
 select
+
+
 
 
 
@@ -3758,6 +3905,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -3773,7 +3922,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -3804,7 +3955,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3833,7 +3986,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -3864,7 +4019,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -3884,6 +4041,8 @@ multiple
 .input-group-btn
 >
 select
+
+
 
 
 
@@ -3937,6 +4096,8 @@ select
 
 
 
+
+
 :not
 
 
@@ -3952,7 +4113,9 @@ select
 
 
 
+
 	
+
 
 
 
@@ -3983,7 +4146,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -4012,7 +4177,9 @@ size
 
 
 
+
  
+
 
 
 
@@ -4043,7 +4210,9 @@ multiple
 
 
 
+
  
+
 
 
 
@@ -4086,6 +4255,8 @@ height
 
 
 
+
+
 :
 
 
@@ -4100,7 +4271,9 @@ height
 
 
 
+
  
+
 
 
 
@@ -4141,11 +4314,15 @@ calc
 
 
 
+
+
 (2
 .3125rem
 +
 2
 px
+
+
 
 
 
@@ -4479,7 +4656,7 @@ px
 }
 
 .btn:active, .btn.active {
-
+	
 }
 
 a.btn.disabled, fieldset[disabled] a.btn {
@@ -5210,6 +5387,8 @@ tbody.collapse.show {
 
 
 
+
+
 :not
 
 
@@ -5224,7 +5403,9 @@ tbody.collapse.show {
 
 
 
+
  
+
 
 
 
@@ -5253,7 +5434,9 @@ tbody.collapse.show {
 
 
 
+
  
+
 
 
 
@@ -5282,7 +5465,9 @@ tbody.collapse.show {
 
 
 
+
  
+
 
 
 
@@ -5311,7 +5496,9 @@ tbody.collapse.show {
 
 
 
+
  
+
 
 
 
@@ -5340,7 +5527,9 @@ tbody.collapse.show {
 
 
 
+
  
+
 
 
 
@@ -5370,7 +5559,9 @@ tbody.collapse.show {
 
 
 
+
 	
+
 
 
 
@@ -5413,6 +5604,8 @@ border-radius
 
 
 
+
+
 :
 
 
@@ -5427,7 +5620,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -5476,7 +5671,11 @@ border-radius
 
 
 
+
+
 :first-child
+
+
 
 
 
@@ -5517,7 +5716,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -5546,7 +5747,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -5575,7 +5778,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -5604,7 +5809,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -5647,6 +5854,8 @@ border-top-right-radius
 
 
 
+
+
 :
 
 
@@ -5661,7 +5870,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -5703,6 +5914,8 @@ border-bottom-right-radius
 
 
 
+
+
 :
 
 
@@ -5717,7 +5930,9 @@ border-bottom-right-radius
 
 
 
+
  
+
 
 
 
@@ -5762,7 +5977,11 @@ border-bottom-right-radius
 
 
 
+
+
 :last-child
+
+
 
 
 
@@ -5803,7 +6022,9 @@ border-bottom-right-radius
 
 
 
+
  
+
 
 
 
@@ -5832,7 +6053,9 @@ border-bottom-right-radius
 
 
 
+
  
+
 
 
 
@@ -5876,7 +6099,10 @@ border-bottom-right-radius
 
 
 
+
+
 :not
+
 
 
 
@@ -5905,6 +6131,7 @@ border-bottom-right-radius
 
 
 
+
 (
 :first-child
 
@@ -5920,7 +6147,9 @@ border-bottom-right-radius
 
 
 
+
  
+
 
 
 
@@ -5963,6 +6192,8 @@ border-top-left-radius
 
 
 
+
+
 :
 
 
@@ -5977,7 +6208,9 @@ border-top-left-radius
 
 
 
+
  
+
 
 
 
@@ -6019,6 +6252,8 @@ border-bottom-left-radius
 
 
 
+
+
 :
 
 
@@ -6033,7 +6268,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6141,6 +6378,8 @@ border-bottom-left-radius
 
 
 
+
+
 :not
 
 
@@ -6155,7 +6394,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6184,7 +6425,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6213,7 +6456,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6242,7 +6487,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6285,7 +6532,10 @@ border-radius
 
 
 
+
+
 :
+
 
 
 
@@ -6313,11 +6563,14 @@ border-radius
 
 
 
+
 0;
 }
 .btn-group-vertical
 >
 .btn
+
+
 
 
 
@@ -6371,6 +6624,8 @@ border-radius
 
 
 
+
+
 :not
 
 
@@ -6385,7 +6640,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -6414,7 +6671,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -6457,6 +6716,8 @@ border-bottom-right-radius
 
 
 
+
+
 :
 
 
@@ -6471,7 +6732,9 @@ border-bottom-right-radius
 
 
 
+
  
+
 
 
 
@@ -6513,7 +6776,10 @@ border-bottom-left-radius
 
 
 
+
+
 :
+
 
 
 
@@ -6541,11 +6807,14 @@ border-bottom-left-radius
 
 
 
+
 0;
 }
 .btn-group-vertical
 >
 .btn
+
+
 
 
 
@@ -6599,6 +6868,8 @@ border-bottom-left-radius
 
 
 
+
+
 :not
 
 
@@ -6613,7 +6884,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6642,7 +6915,9 @@ border-bottom-left-radius
 
 
 
+
  
+
 
 
 
@@ -6685,6 +6960,8 @@ border-top-left-radius
 
 
 
+
+
 :
 
 
@@ -6699,7 +6976,9 @@ border-top-left-radius
 
 
 
+
  
+
 
 
 
@@ -6741,6 +7020,8 @@ border-top-right-radius
 
 
 
+
+
 :
 
 
@@ -6755,7 +7036,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -6852,6 +7135,8 @@ border-top-right-radius
 
 
 
+
+
 :not
 
 
@@ -6866,7 +7151,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -6895,7 +7182,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -6924,7 +7213,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -6953,7 +7244,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -6995,6 +7288,8 @@ border-top-right-radius
 
 
 
+
+
 :not
 
 
@@ -7009,7 +7304,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7038,7 +7335,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7067,7 +7366,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7096,7 +7397,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7125,7 +7428,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7166,7 +7471,10 @@ border-top-right-radius
 
 
 
+
+
 :not
+
 
 
 
@@ -7195,6 +7503,7 @@ border-top-right-radius
 
 
 
+
 (
 :first-child
 
@@ -7210,7 +7519,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7239,7 +7550,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7268,7 +7581,9 @@ border-top-right-radius
 
 
 
+
  
+
 
 
 
@@ -7311,6 +7626,8 @@ border-radius
 
 
 
+
+
 :
 
 
@@ -7325,7 +7642,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -7415,6 +7734,8 @@ border-radius
 
 
 
+
+
 :not
 
 
@@ -7429,7 +7750,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -7458,7 +7781,9 @@ border-radius
 
 
 
+
  
+
 
 
 
@@ -7501,6 +7826,8 @@ border-right
 
 
 
+
+
 :
 
 
@@ -7515,7 +7842,9 @@ border-right
 
 
 
+
  
+
 
 
 
@@ -7571,6 +7900,8 @@ border-right
 
 
 
+
+
 :not
 
 
@@ -7585,7 +7916,9 @@ border-right
 
 
 
+
  
+
 
 
 
@@ -7614,7 +7947,9 @@ border-right
 
 
 
+
  
+
 
 
 
@@ -7657,6 +7992,8 @@ border-left
 
 
 
+
+
 :
 
 
@@ -7671,7 +8008,9 @@ border-left
 
 
 
+
  
+
 
 
 
@@ -8597,7 +8936,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -8638,6 +8979,8 @@ border-left
 	
 	
 	
+	
+	
 	:not
 	
 	
@@ -8652,7 +8995,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -8681,7 +9026,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -8710,7 +9057,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -8739,7 +9088,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -8782,6 +9133,8 @@ border-left
 	
 	
 	
+	
+	
 	:
 	
 	
@@ -8796,7 +9149,9 @@ border-left
 	
 	
 	
+	
 	 
+	
 	
 	
 	
@@ -9684,7 +10039,9 @@ button.close {
 
 
 
+
  
+
 
 
 
@@ -9713,7 +10070,9 @@ button.close {
 
 
 
+
  
+
 
 
 
@@ -9756,7 +10115,10 @@ margin-left
 
 
 
+
+
 :
+
 
 
 
@@ -9784,7 +10146,10 @@ margin-left
 
 
 
+
 .25rem
+
+
 
 
 
@@ -9829,7 +10194,9 @@ margin-left
 
 
 
+
  
+
 
 
 
@@ -9858,7 +10225,9 @@ margin-left
 
 
 
+
  
+
 
 
 
@@ -9901,7 +10270,10 @@ margin-right
 
 
 
+
+
 :
+
 
 
 
@@ -9929,7 +10301,10 @@ margin-right
 
 
 
+
 .25rem
+
+
 
 
 
@@ -13473,7 +13848,6 @@ a.text-dark:focus, a.text-dark:hover {
 	visibility: hidden !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
 #loginLabel, #passwordLabel {
 	width: 120%;
 }
@@ -13490,13 +13864,16 @@ a.text-dark:focus, a.text-dark:hover {
 	margin-top: 5px;
 	margin-left: 5px;
 }
+
 .row123 {
 	font-size: 35px;
 	margin-left: 44px;
 	margin-top: 22px;
 }
+
 .col-4Ava {
 	margin-left: 40px;
+	margin-top: 10px;
 	width: 220px;
 	min-height: 1px;
 	padding-right: 15px;
@@ -13518,6 +13895,7 @@ a.text-dark:focus, a.text-dark:hover {
 	padding-right: 15px;
 	padding-left: 1px;
 }
+
 .col-4Cand2 {
 	margin-left: 18px;
 	width: 220px;
@@ -13533,6 +13911,7 @@ a.text-dark:focus, a.text-dark:hover {
 	padding-right: 15px;
 	padding-left: 1px;
 }
+
 .col-2Cand2 {
 	margin-left: 44px;
 }
@@ -13544,30 +13923,37 @@ a.text-dark:focus, a.text-dark:hover {
 .col-2Cand1 {
 	margin-left: 44px;
 }
+
 .col-2Cand3 {
 	margin-left: 44px;
 }
+
 .col-2AvaT {
+	font-family: Arial, Helvetica, Sans-Serif;
 	margin-left: 44px;
 }
+
 .col-4Ava2 {
-	margin-left: 39px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	margin-left: 40px;
 	width: 220px;
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 1px;
 }
+
 .btn-danger3 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 100%;
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
-	margin-left: 985px;
+	margin-left: 870px;
 	margin-top: 229px;
-	width: 185px;
-	height: 70px;
+	width: 165px;
+	height: 55px;
 }
+
 .btn-danger55 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 100%;
@@ -13579,24 +13965,29 @@ a.text-dark:focus, a.text-dark:hover {
 	width: 185px;
 	height: 70px;
 }
+
 .botaoAva {
 	font-size: 100%;
 }
+
 .rowAva {
 	font-size: 32px;
 	margin-left: 44px;
 	margin-top: 22px;
 }
+
 button#botaoAva {
-	 background-image: url("logoAva.png");
+	background-image: url("logoAva.png");
 }
+
 .col-6Tipo {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size:33px;
+	font-size: 33px;
 	margin-left: 44px;
 	margin-top: 22px;
 	color: black;
 }
+
 .btn-danger4 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 17px;
@@ -13609,6 +14000,7 @@ button#botaoAva {
 	width: 115px;
 	height: 30px;
 }
+
 .btn-danger5 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
@@ -13622,33 +14014,37 @@ button#botaoAva {
 	width: 116px;
 	height: 31px;
 }
+
 .col-2Tipo {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
 	margin-left: 45px;
 }
+
 .col-2Tipo1 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
 	margin-left: 45px;
 }
+
 .col-4Tipo2 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
 	margin-top: 5px;
 	margin-left: 55px;
-	
 }
+
 .col-4Tipo3 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
 	margin-top: 5px;
 	margin-left: 47px;
 }
+
 #botaoTipo2 {
 	margin-left: 47px;
-		
 }
+
 .btn-danger6 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 25px;
@@ -13657,23 +14053,25 @@ button#botaoAva {
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
-	margin-left: 415px;
-    margin-top: -63px;
-    margin-bottom: 285px;
-	width: 180px;
-	height: 55px;
-	
+	margin-left: 385px;
+	margin-top: -70px;
+	margin-bottom: 150px;
+	width: 140px;
+	height: 50px;
 }
+
 .col-6Cr {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 22px;
+	font-size: 20px;
 	margin-left: 55px;
 }
+
 .col-6Co {
 	font-family: Arial, Helvetica, Sans-Serif;
-	font-size: 22px;
+	font-size: 20px;
 	margin-left: 55px;
 }
+
 .btn-danger7 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
@@ -13682,11 +14080,12 @@ button#botaoAva {
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
-	margin-left: 235px;
+	margin-left: 208px;
 	margin-top: 13px;
 	width: 116px;
 	height: 31px;
 }
+
 .btn-danger8 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 18px;
@@ -13695,14 +14094,16 @@ button#botaoAva {
 	color: #fff;
 	background-color: #FF0000;
 	border-color: #FF0000;
-	margin-left: 55px;
+	margin-left: 70px;
 	margin-top: 13px;
 	width: 116px;
 	height: 31px;
 }
+
 .col-6TipoC {
 	margin-bottom: 25px;
 }
+
 .btn-danger10 {
 	font-family: Arial, Helvetica, Sans-Serif;
 	font-size: 26px;
@@ -13712,11 +14113,8 @@ button#botaoAva {
 	background-color: #FF0000;
 	border-color: #FF0000;
 	margin-left: 451px;
-    margin-top: -68px;
-    margin-bottom: 284px;
+	margin-top: -68px;
+	margin-bottom: 284px;
 	width: 181px;
 	height: 61px;
-		
 }
-
-
