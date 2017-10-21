@@ -1,0 +1,44 @@
+
+
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+  height: 100vh;
+  background:#262626 !important;
+}
+
+#particles-js{
+  background:#262626;
+  height:99%;
+  position: relative;
+  z-index: 0;
+
+  
+}
+
+
+#login{
+  background:#fff;
+  opacity:1;
+  position: absolute;
+  margin-top: 25vh;
+  margin-left: 75vh;
+  padding:0.5em 1em 1.5em 1em;
+  border:#ccc 2px solid;
+  border-radius: 5px;
+  width: 27%;
+}
+
+.header{
+  padding: 10px;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+}
+#login input[type="text"], #login input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}
+

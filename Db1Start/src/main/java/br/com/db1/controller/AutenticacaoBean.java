@@ -23,9 +23,11 @@ public class AutenticacaoBean {
 			ExternalContext ec = fc.getExternalContext();
 			HttpSession session = (HttpSession) ec.getSession(false);
 			session.setAttribute("usuario", this.usuario);
-			return "/logado/home";
+			return "rh";
 
-		} else {
+		}
+		
+		else {
 			FacesMessage fm = new FacesMessage("Usuário e/ou senha inválidos");
 			fm.setSeverity(FacesMessage.SEVERITY_ERROR);
 		fc.addMessage(null, fm);

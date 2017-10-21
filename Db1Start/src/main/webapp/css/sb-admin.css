@@ -32,7 +32,7 @@ body.fixed-nav {
   text-align: center;
   color: white;
   background: rgba(52, 58, 64, 0.5);
-  line-height: 45px; }
+  line-height: 35px; }
   .scroll-to-top:focus, .scroll-to-top:hover {
     color: white; }
   .scroll-to-top:hover {
@@ -103,7 +103,7 @@ body.fixed-nav {
 
 @media (min-width: 992px) {
   #mainNav .navbar-brand {
-    width: 250px; }
+    width: 200px; }
   #mainNav .navbar-collapse {
     overflow: visible;
     max-height: none; }
@@ -118,20 +118,21 @@ body.fixed-nav {
       flex-direction: column;
       margin-top: 56px; }
       #mainNav .navbar-collapse .navbar-sidenav > .nav-item {
-        width: 250px;
+        width: 200px;
         padding: 0; }
         #mainNav .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
           padding: 1em; }
         #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
         #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
           padding-left: 0;
-          list-style: none; }
+          list-style: none;
+           }
           #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li,
           #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li {
-            width: 250px; }
+            width: 200px; }
             #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
             #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
-              padding: 1em; }
+              padding: 0.4em; }
         #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a {
           padding-left: 2.75em; }
         #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
@@ -162,7 +163,7 @@ body.fixed-nav {
     flex-direction: column;
     margin-top: calc(100vh - 56px); }
     #mainNav.fixed-top .sidenav-toggler > .nav-item {
-      width: 250px;
+      width: 200px;
       padding: 0; }
       #mainNav.fixed-top .sidenav-toggler > .nav-item > .nav-link {
         padding: 1em; } }
@@ -212,7 +213,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
   background: white; }
   @media (min-width: 992px) {
     .content-wrapper {
-      margin-left: 250px; } }
+      margin-left: 200px; } }
 
 #sidenavToggler i {
   font-weight: 800; }
@@ -336,10 +337,10 @@ footer.sticky-footer {
   width: 100%;
   height: 56px;
   background-color: #e9ecef;
-  line-height: 55px; }
+  line-height: 35px; }
   @media (min-width: 992px) {
     footer.sticky-footer {
-      width: calc(100% - 250px); } }
+      width: calc(100% - 200px); } }
 
 @media (min-width: 992px) {
   body.sidenav-toggled footer.sticky-footer {
