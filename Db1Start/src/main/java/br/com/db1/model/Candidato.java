@@ -1,10 +1,14 @@
 package br.com.db1.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,16 +19,19 @@ public class Candidato {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(length = 50, nullable = false)
+	@Column
 	private String nome;
-	@Column(length = 40, nullable = false, unique = true)
+	@Column
 	private String email;
-	@Column(nullable = false)
+	@Column
 	private Integer telefone;
-	@Column(length = 40, unique = true)
+	@Column
 	private String linkedin;
-	@Column(length = 50)
+	@Column
 	private String obs;
+
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "candidato")
+	private List<Prova> provas;
 
 	public Long getId() {
 		return id;
@@ -72,6 +79,14 @@ public class Candidato {
 
 	public void setObs(String obs) {
 		this.obs = obs;
+	}
+
+	public List<Prova> getProvas() {
+		return provas;
+	}
+
+	public void setProvas(List<Prova> provas) {
+		this.provas = provas;
 	}
 
 }

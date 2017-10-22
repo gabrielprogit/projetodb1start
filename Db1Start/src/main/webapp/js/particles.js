@@ -95,14 +95,14 @@ var pJS = function(tag_id, params){
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true
       },
       modes: {
         grab:{
-          distance: 50,
+          distance: 100,
           line_linked:{
             opacity: 1
           }

@@ -19,14 +19,14 @@ public class Avaliador {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(length = 50, nullable = false)
+	@Column
 	private String nome;
-
-	@Column(length = 40, nullable = false, unique = true)
+	@Column
 	private String email;
 
-	@OneToMany(fetch = FetchType.LAZY,mappedBy = "avaliador")
-	private List<Prova> provas;
+	@Column
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "avaliador")
+	private List<Prova> prova;
 
 	public Long getId() {
 		return id;
@@ -50,6 +50,14 @@ public class Avaliador {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public List<Prova> getProva() {
+		return prova;
+	}
+
+	public void setProva(List<Prova> prova) {
+		this.prova = prova;
 	}
 
 }

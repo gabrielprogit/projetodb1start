@@ -1,25 +1,20 @@
 
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
-<h:head>
-	<title>Avaliadores</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
-	<meta charset="utf-8" />
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<script src="js/jquery-latest.js"></script>
-	<script src="js/jquery.tablesorter.min.js"></script>
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html" lang="en" template="menu.xhtml">
+	<ui:define name="corpo">
 
-</h:head>
+		<h:form>
+			<div class="content-wrapper" id="div-corpo">
+				<div class="rowAva">
+					<h:outputLabel value="AVALIADORES" />
+				</div>
+				<div class="col-6">
+					<h:commandButton class="btn btn-danger5" value="INCLUIR"
+						id="botaoAva" />
+				</div>
+			</div>
+		</h:form>
+	</ui:define>
 
-<h:body>
-	<h:form>
-		<div class="rowAva">
-			<h:outputLabel value="AVALIADORES" />
-		</div>
-		<div class="col-6">
-			<h:commandButton class="btn btn-danger5" value="INCLUIR" id="botaoAva"/>
-		</div>
-	</h:form>
-</h:body>
-</html>
+</ui:composition>

@@ -1,38 +1,30 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:h="http://java.sun.com/jsf/html" lang="en" xml:lang="en">
-<h:head>
-	<title>Cadastro Avaliador</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
-	<link rel="stylesheet"
-		href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-	<meta charset="utf-8" />
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<script src="js/jquery-latest.js"></script>
-	<script src="js/jquery.tablesorter.min.js"></script>
 
-</h:head>
-<h:body>
-	<h:form>
-		<div class="row123">
-			<h:outputLabel value="CADASTRAR NOVO AVALIADOR" />
-		</div>
-			<div class="col-6">
-				<h:outputLabel value="NOME:" for="campo-nome" class="col-2AvaT"/>
-				<h:inputText value="" id="campoAva" class="col-4Ava"/>
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" 
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html" lang="en" template="menu.xhtml">
+	<ui:define name="corpo">
+
+
+		<h:form>
+			<div class="content-wrapper" id="div-corpo">
+
+				<div class="row123">
+					<h:outputLabel value="CADASTRAR NOVO AVALIADOR" />
+				</div>
+				<div class="col-6">
+					<h:outputLabel value="NOME:" for="campo-nome" class="col-2AvaT" />
+					<h:inputText value="" id="campoAva" class="col-4Ava" />
+				</div>
+				<div class="col-6">
+					<h:outputLabel value="EMAIL:" for="campo-email" class="col-2AvaT" />
+					<h:inputText value="" id="campoAva2" class="col-4Ava" />
+				</div>
+				<div class="col-6">
+					<h:commandButton class="btn btn-danger3" value="SALVAR"
+						id="botaoAva" />
+				</div>
 			</div>
-			<div class="col-6">
-				<h:outputLabel value="EMAIL:" for="campo-email" class="col-2AvaT"/>
-				<h:inputText value="" id="campoAva2" class="col-4Ava2"/>
-			</div>
-			<div class="col-6">
-				<h:commandButton class="btn btn-danger3" value="SALVAR" id="botaoAva"/>
-			</div>
-		
-		
-		
-		
-	</h:form>
-</h:body>
-</html>
+		</h:form>
+	</ui:define>
+
+</ui:composition>

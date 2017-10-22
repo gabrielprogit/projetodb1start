@@ -9,7 +9,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -20,16 +19,13 @@ public class TipoAvaliacao {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(length = 50, nullable = false)
+	@Column
 	private String nome;
-	@Column(nullable = false)
+	@Column
 	private Integer prazo;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "tipoAvaliacao")
 	private List<Criterio> criterio;
-
-	@OneToOne
-	private Prova prova;
 
 	public Long getId() {
 		return id;
