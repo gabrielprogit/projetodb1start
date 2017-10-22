@@ -11,14 +11,14 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tipoCriterio", schema = "public")
+@Table(name = "resultadoCriterio", schema = "public")
 public class ResultadoCriterio {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column
+	@Column(length = 20, nullable = false)
 	private String resultado;
 
 	@OneToOne(targetEntity = Criterio.class)

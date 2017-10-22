@@ -23,19 +23,19 @@ public class Prova {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column
+	@Column(length = 50, nullable = false)
 	private String nome;
-	@Column
+	@Column(length = 20, nullable = false)
 	private String tipo;
-	@Column
+	@Column(length = 30)
 	private String pontosFortes;
-	@Column
+	@Column(length = 30)
 	private String pontosFracos;
-	@Column
+	@Column(length = 50)
 	private String parecer;
-	@Column
-	private Byte avaliacao;
-	@Column
+	@Column(nullable = false)
+	private Byte[] avaliacao;
+	@Column(nullable = false)
 	private Date dataAvaliacao;
 	@Column
 	private Date dataCorrecao;
@@ -49,6 +49,7 @@ public class Prova {
 	private Avaliador avaliador;
 
 	@OneToOne
+	@JoinColumn(name = "tipoAvaliacao_id", nullable = false)
 	private TipoAvaliacao tipoAvaliacao;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "prova")
@@ -102,11 +103,11 @@ public class Prova {
 		this.parecer = parecer;
 	}
 
-	public Byte getAvaliacao() {
+	public Byte[] getAvaliacao() {
 		return avaliacao;
 	}
 
-	public void setAvaliacao(Byte avaliacao) {
+	public void setAvaliacao(Byte[] avaliacao) {
 		this.avaliacao = avaliacao;
 	}
 
