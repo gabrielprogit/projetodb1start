@@ -4,109 +4,217 @@
    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets" lang="en">
 <head>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <meta name="description" content=""/>
-  <meta name="author" content=""/>
-  <title>Sistema Avaliação DB1</title>
-  <link rel="stylesheet" type="text/css" href="bootstrap2.css" />
-  <!-- Bootstrap core CSS-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-  <!-- Custom fonts for this template-->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-  <!-- Page level plugin CSS-->
-  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet"/>
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin.css" rel="stylesheet"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>Sistema Avaliação DB1</title>
+<link rel="stylesheet" type="text/css" href="bootstrap2.css" />
+<!-- Bootstrap core CSS-->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Custom fonts for this template-->
+<link href="vendor/font-awesome/css/font-awesome.min.css"
+	rel="stylesheet" type="text/css" />
+<!-- Page level plugin CSS-->
+<link href="vendor/datatables/dataTables.bootstrap4.css"
+	rel="stylesheet" />
+<!-- Custom styles for this template-->
+<link href="css/sb-admin.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/menu-not.css" />
+
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-  <!-- Navigation-->
-  
-  <ui:insert name="menu-completo" id="div-menu">
-  <h:form class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <h:link class="navbar-brand" action="login.xhtml">
-    <img src="img/logo.png" width="20%" />
+	<!-- Navigation-->
+
+	<ui:insert name="menu-completo" id="div-menu">
+		<h:form class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+			id="mainNav">
+			<h:link class="navbar-brand" action="login.xhtml">
+				<img src="img/logo.png" width="20%" />
     SYSOUT TECH</h:link>
-    <h:commandButton class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"/>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-        <li class="nav-item" title="Inicio">
-          <h:commandLink  class="nav-link" action="rh.xhtml">
-            <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Início</span>
-          </h:commandLink>
-        </li>
-        <li class="nav-item" title="Example Pages">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
-             <i class="fa fa-fw fa-wrench"></i>
-            <span class="nav-link-text">Cadastros</span>
-          </a>
-          <ul class="sidenav-second-level collapse" id="collapseExamplePages">
-            <li>
-              <h:commandLink  action="avaliadorCadastro.xhtml">Avaliador</h:commandLink >
-            </li>
-            <li>
-              <h:commandLink  action="telaCandidatos.xhtml">Candidatos</h:commandLink >
-            </li>
-            <li>
-              <h:commandLink  action="cadastrarTipo.xhtml">Tipo de Avaliação</h:commandLink >
-            </li>
-            <li>
-              <h:commandLink  action="criterios.xhtml">Critérios</h:commandLink >
-            </li>
-            
-          </ul>
-        </li>
-        <li class="nav-item" title="Link">
-          <h:commandLink  class="nav-link" action="relatorios.xhtml">
-            <i class="fa fa-fw fa-area-chart"></i>
-            <span class="nav-link-text">Relatórios</span>
-          </h:commandLink >
-        </li>
-      </ul>
-      <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"></i>
-          </a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <h:commandLink  class="nav-link" action="#{autenticacaoBean.registraSaida}">
-            <i class="fa fa-fw fa-sign-out"></i>Logout</h:commandLink >
-        </li>
-      </ul>
-      </div>
-  </h:form>
-   </ui:insert>
-  
- <ui:insert name="corpo">
-	 <div class="content-wrapper">
-	</div>
-  </ui:insert>
+			<h:commandButton class="navbar-toggler navbar-toggler-right"
+				type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation" />
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+					<li class="nav-item" title="Inicio"><h:commandLink
+							class="nav-link" action="rh.xhtml">
+							<i class="fa fa-fw fa-dashboard"></i>
+							<span class="nav-link-text">Início</span>
+						</h:commandLink></li>
+					<li class="nav-item" title="Example Pages"><a
+						class="nav-link nav-link-collapse collapsed"
+						data-toggle="collapse" href="#collapseExamplePages"
+						data-parent="#exampleAccordion"> <i class="fa fa-fw fa-wrench"></i>
+							<span class="nav-link-text">Cadastros</span>
+					</a>
+						<ul class="sidenav-second-level collapse"
+							id="collapseExamplePages">
+							<li><h:commandLink action="avaliadorCadastro.xhtml">Avaliador</h:commandLink>
+							</li>
+							<li><h:commandLink action="telaCandidatos.xhtml">Candidatos</h:commandLink>
+							</li>
+							<li><h:commandLink action="cadastrarTipo.xhtml">Tipo de Avaliação</h:commandLink>
+							</li>
+							<li><h:commandLink action="criterios.xhtml">Critérios</h:commandLink>
+							</li>
+
+						</ul></li>
+					<li class="nav-item" title="Link"><h:commandLink
+							class="nav-link" action="relatorios.xhtml">
+							<i class="fa fa-fw fa-area-chart"></i>
+							<span class="nav-link-text">Relatórios</span>
+						</h:commandLink></li>
+				</ul>
+				<ul class="navbar-nav sidenav-toggler">
+					<li class="nav-item"><a class="nav-link text-center"
+						id="sidenavToggler"> <i class="fa fa-fw fa-angle-left"></i>
+					</a></li>
+				</ul>
+
+				<ul class="navbar-nav ml-10 mr-0">
+					<li class="nav-item">
+						<!--span class="notification-label"></span-->
+						
+						<div class="dropdown-container notificacao align-right">
+							<a href="#" data-dropdown="notificationMenu"
+								class="menu-link has-notifications circle"> <i
+								class="notificacao"><img src="img/notification.png" width="30%"/></i>
+							</a>
+							<ul class="dropdown" name="notificationMenu">
+								<li class="notification-group">
+									<div class="notification-tab">
+										<i class="fa fa-flag"></i>
+										<h4>Tasks</h4>
+										<span class="label">4</span>
+									</div> <!-- tab -->
+									<ul class="notification-list">
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">project3</a></span> <span
+													class="date">2 minutes ago</span>
+											</div>
+										</li>
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">project2</a></span> <span
+													class="date">12 hours ago</span>
+											</div>
+										</li>
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">project6</a></span> <span
+													class="date">2 days ago</span>
+											</div>
+										</li>
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">project2</a></span> <span
+													class="date">2 days ago</span>
+											</div>
+										</li>
+
+									</ul>
+								</li>
+
+								<li class="notification-group">
+									<div class="notification-tab">
+										<i class="fa fa-envelope"></i>
+										<h4>Messages</h4>
+										<span class="label">3</span>
+									</div>
+									<ul class="notification-list">
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">@mstrlaw</a></span> <span
+													class="date">2 minutes ago</span>
+											</div>
+										</li>
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">@mstrlaw</a></span> <span
+													class="date">12 hours ago</span>
+											</div>
+										</li>
+										<li class="notification-list-item">
+											<p class="message">Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit...</p>
+											<div class="item-footer">
+												<span class="from"><a href="#">@mstrlaw</a></span> <span
+													class="date">2 days ago</span>
+											</div>
+										</li>
+
+									</ul>
+								</li>
 
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Page level plugin JavaScript-->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/datatables/jquery.dataTables.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
-    <!-- Custom scripts for this page-->
-    <script src="js/sb-admin-datatables.min.js"></script>
-    <script src="js/sb-admin-charts.min.js"></script>
-	
+							</ul>
+						</div>
+
+
+
+
+					</li>
+				</ul>
+
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><h:commandLink class="nav-link"
+							action="#{autenticacaoBean.registraSaida}">
+							<i class="fa fa-fw fa-sign-out"></i>Logout</h:commandLink></li>
+				</ul>
+
+
+
+			</div>
+		</h:form>
+	</ui:insert>
+
+	<ui:insert name="corpo">
+		<div class="content-wrapper"></div>
+	</ui:insert>
+
+
+	<!-- Bootstrap core JavaScript-->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/popper/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Core plugin JavaScript-->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<!-- Page level plugin JavaScript-->
+	<script src="vendor/chart.js/Chart.min.js"></script>
+	<script src="vendor/datatables/jquery.dataTables.js"></script>
+	<script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+	<!-- Custom scripts for all pages-->
+	<script src="js/sb-admin.min.js"></script>
+	<!-- Custom scripts for this page-->
+	<script src="js/sb-admin-datatables.min.js"></script>
+	<script src="js/sb-admin-charts.min.js"></script>
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script  src="js/menu-not.js"></script>
+
 </body>
 
 </html>

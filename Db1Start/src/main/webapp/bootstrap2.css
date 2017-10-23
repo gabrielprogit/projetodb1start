@@ -12114,6 +12114,16 @@ supports ((position: -webkit-sticky ) or (position: sticky )) {
 	margin-left: 0.25rem !important;
 }
 
+.ml-10 {
+	margin-left: 58rem !important;
+}
+
+
+
+.mr-0 {
+	margin-right: 0 !important;
+}
+
 .mx-1 {
 	margin-right: 0.25rem !important;
 	margin-left: 0.25rem !important;
@@ -14225,5 +14235,9 @@ button#botaoAva {
 	background-color:rgba(33,37,41,0.8);
 	color: #FFF;
 }
+
+
+
+
 
 
