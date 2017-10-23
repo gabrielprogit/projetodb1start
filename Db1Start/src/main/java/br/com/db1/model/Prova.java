@@ -2,7 +2,6 @@ package br.com.db1.model;
 
 import java.util.Date;
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -14,6 +13,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "prova", schema = "public")
@@ -22,35 +23,33 @@ public class Prova {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
-	@Column
+	@Column(length = 50, nullable = false)
 	private String nome;
-	@Column
+	@Column(length = 20, nullable = false)
 	private String tipo;
-	@Column
+	@Column(length = 30)
 	private String pontosFortes;
-	@Column
+	@Column(length = 30)
 	private String pontosFracos;
-	@Column
+	@Column(length = 50)
 	private String parecer;
-	@Column
-	private Byte avaliacao;
-	@Column
+	@Column(nullable = false)
+	private Byte[] avaliacao;
+	@Column(nullable = false, name = "data_avaliacao")
+	@Temporal(TemporalType.DATE)
 	private Date dataAvaliacao;
-	@Column
+	@Column(name = "data_correcao")
+	@Temporal(TemporalType.DATE)
 	private Date dataCorrecao;
-
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "candidato_id", nullable = false)
 	private Candidato candidato;
-
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "avaliador_id", nullable = false)
 	private Avaliador avaliador;
-
 	@OneToOne
+	@JoinColumn(name = "tipoAvaliacao_id", nullable = false)
 	private TipoAvaliacao tipoAvaliacao;
-
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "prova")
 	private List<ResultadoCriterio> resultadoCriterio;
 
@@ -102,11 +101,11 @@ public class Prova {
 		this.parecer = parecer;
 	}
 
-	public Byte getAvaliacao() {
+	public Byte[] getAvaliacao() {
 		return avaliacao;
 	}
 
-	public void setAvaliacao(Byte avaliacao) {
+	public void setAvaliacao(Byte[] avaliacao) {
 		this.avaliacao = avaliacao;
 	}
 
@@ -157,5 +156,4 @@ public class Prova {
 	public void setResultadoCriterio(List<ResultadoCriterio> resultadoCriterio) {
 		this.resultadoCriterio = resultadoCriterio;
 	}
-
 }

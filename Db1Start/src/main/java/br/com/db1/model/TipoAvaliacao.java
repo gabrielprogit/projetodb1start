@@ -1,7 +1,6 @@
 package br.com.db1.model;
 
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -9,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -18,14 +18,14 @@ public class TipoAvaliacao {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
-	@Column
+	@Column(length = 50, nullable = false)
 	private String nome;
-	@Column
+	@Column(nullable = false)
 	private Integer prazo;
-
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "tipoAvaliacao")
 	private List<Criterio> criterio;
+	@OneToOne
+	private Prova prova;
 
 	public Long getId() {
 		return id;
@@ -58,5 +58,4 @@ public class TipoAvaliacao {
 	public void setCriterio(List<Criterio> criterio) {
 		this.criterio = criterio;
 	}
-
 }

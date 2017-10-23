@@ -18,10 +18,10 @@ public class Criterio {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(nullable = false, length = 50)
+	@Column(nullable = false, length = 30)
 	private String descricao;
 
-	@Column
+	@Column(nullable = false)
 	private Boolean obrigatorio;
 
 	@ManyToOne(fetch = FetchType.LAZY)
