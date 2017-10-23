@@ -70,7 +70,7 @@ public class AvaliadorBean {
 
 	public String novo() {
 		this.avaliador = new Avaliador();
-		return "cadastrarAvaliador";
+		return "avaliadorCadastro";
 	}
 
 	public String salvar() {
